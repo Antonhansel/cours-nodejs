@@ -5,6 +5,10 @@
 En haut du fichier nodejs, ajouter
 
 ```
+https://jsonplaceholder.typicode.com/todos/
+```
+
+```
 const fetch = require("node-fetch");
 
 const weatherBaseUrl = `https://api.darksky.net/forecast/${process.env.DARKSKY_API_KEY}/`
