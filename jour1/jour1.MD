@@ -13,7 +13,12 @@ const ipToAddressApi = `http://api.ipstack.com/IP_ADDRESS?access_key=f95929c427d
 const getIpAddress = `https://ip.cn`;
 ```
 
-Dans l'environnement ajouter
+
+```
+    const ipPageRes = await fetch(getIpAddress);
+    let ipPageText = await ipPageRes.text();
+    const ip = ipPageText.match(/\d+\.\d+\.\d+\.\d+/)[0];
+```
 
 ```
 DARKSKY_API_KEY="7b513c959f289f3715ab183d50e191b6"
