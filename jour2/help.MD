@@ -1,4 +1,4 @@
-
+wget http://www.almhuette-raith.at/apache-log/access.log
 
 ```
 process
