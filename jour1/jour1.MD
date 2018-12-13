@@ -47,3 +47,9 @@ GMAPS_API_KEY="AIzaSyDsogEvFt_gE5joLrh_Nsfosvep2zTlnp4"
 * Ajouter la méthode "getLocationInfo" dans la classe weather qui va d'abord récupérer l'ip du serveur, puis ensuite trouver la ville d'ou provient l'ip, puis convertir cette ville en lat/lng
 * Ajouter la méthode getWeatherInfo qui récupère la météo en fonction de la latitute et la longitude fournie
 * Ajouter le getter getWeather qui retourne la météo
+
+* Créer un nouveau fichier
+* importer les modules dont vous avez besoin
+* call api sur https://jsonplaceholder.typicode.com/todos/
+* combien d'objets renvoyés dans le call api
+* lister les 'id - titre'

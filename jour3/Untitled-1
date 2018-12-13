@@ -1,0 +1,5 @@
+* Créer un nouveau fichier
+* importer les modules dont vous avez besoin
+* call api sur https://jsonplaceholder.typicode.com/todos/
+* combien d'objets renvoyés dans le call api
+* lister les 'id - titre'

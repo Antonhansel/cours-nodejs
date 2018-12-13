@@ -1,0 +1,31 @@
+{
+  "name": "cours-nodejs",
+  "version": "1.0.0",
+  "description": "ookokokokokok",
+  "main": "./jour1/index.js",
+  "scripts": {
+    "test": "./node_modules/eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonhansel/cours-nodejs.git"
+  },
+  "keywords": [
+    "cours",
+    "nodejs",
+    "ambient"
+  ],
+  "author": "antonhansel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antonhansel/cours-nodejs/issues"
+  },
+  "homepage": "https://github.com/Antonhansel/cours-nodejs#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
